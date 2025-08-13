@@ -1,0 +1,7 @@
+streamlit
+pandas
+numpy
+plotly
+pycountry
+pycountry-convert
+matplotlib
