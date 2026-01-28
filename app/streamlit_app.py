@@ -1470,14 +1470,35 @@ def slide_8__conclusion():
     with col1:
         st.markdown(
             """
-            <p style='font-size:32px; font-weight:bold;'>Key takeaways:</p>
+            <p style="font-size:32px; font-weight:bold;">Key takeaways:</p>
 
-            <ul style='font-size:28px; line-height:1.8;'>
-                <li><strong>Game choice matters.</strong> Different genres lead to different career dynamics.</li>
-                <li><strong>There is no single path.</strong> Some players succeed fast, others build over time.</li>
-                <li><strong>Success is spiky.</strong> Most players rely on a few key tournaments.</li>
-                <li><strong>Prize money ≠ full picture.</strong> Sponsorships, teams and brand also matter — but the data reveals structural patterns that shape those journeys.</li>
-            </ul>
+            <p style="font-size:28px; margin-bottom:6px;">
+            • <strong>Game choice is a structural career decision.</strong>
+            </p>
+            <p style="font-size:24px; color:#333333; margin-top:0; margin-bottom:22px;">
+            Different genres create very different earning distributions, career lengths, and risk profiles.
+            </p>
+
+            <p style="font-size:28px; margin-bottom:6px;">
+            • <strong>There is no single career path to the top.</strong>
+            </p>
+            <p style="font-size:24px; color:#333333; margin-top:0; margin-bottom:22px;">
+            Some players rely on early breakout wins, while others accumulate earnings steadily over many years.
+            </p>
+
+            <p style="font-size:28px; margin-bottom:6px;">
+            • <strong>Most top careers are driven by a small number of decisive events.</strong>
+            </p>
+            <p style="font-size:24px; color:#333333; margin-top:0; margin-bottom:22px;">
+            For the majority of players, a limited set of tournaments accounts for a large share of total earnings.
+            </p>
+
+            <p style="font-size:28px; margin-bottom:6px;">
+            • <strong>Prize money does not tell the full story, but it reveals strong structural patterns.</strong>
+            </p>
+            <p style="font-size:24px; color:#333333; margin-top:0;">
+            Even without sponsorship or salary data, clear differences emerge across games and genres.
+            </p>
             """, unsafe_allow_html=True
         )
 
@@ -1489,19 +1510,23 @@ def slide_8__conclusion():
     st.markdown(
         """
         <p style='font-size:32px; font-weight:bold;'>Final thoughts:</p>
+
         <p style='font-size:28px;'>
-        Building a career in esports isn’t just about <strong>winning</strong>. It’s about <strong>dedication</strong>, <strong>game choice</strong>, and <strong>being ready to deliver — when it counts most.</strong>
+        <strong>Building a career in esports isn’t just about winning</strong>. 
+        It’s about dedication, making the right game choices, 
+        and being ready to perform when it matters most.
         </p>
 
-        <p style='font-size:28px; margin-top:20px; font-style:italic; color:black;'>
-        We often only see the public wins — but data reveals the silent grind, the volatility, and the deeper patterns that shape a career.
+        <p style='font-size:28px; margin-top:15px; font-style:italic; color:black;'>
+        We often only see the public wins, but data helps uncover the silent grind, 
+        the volatility, and the deeper patterns that shape a career over time.
         </p>
         """, unsafe_allow_html=True
     )
 
     st.markdown(
         """
-        <hr style='margin-top:40px; margin-bottom:10px;'>
+        <hr style='margin-top:20px; margin-bottom:10px;'>
         <p style='font-size:18px; color:black;'>Thanks for reading — and if this sparked ideas or questions, feel free to reach out!</p>
         <p style='font-size:18px; color:black;'>Project by <strong>Hugo Malta-Vacas</strong> — Final Bootcamp Presentation, June 2025<br>
         <a href='https://www.linkedin.com/in/hugomaltavacas/' target='_blank' style='color:#00b4d8;'>Connect on LinkedIn</a></p>
